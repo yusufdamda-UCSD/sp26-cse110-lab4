@@ -2,22 +2,21 @@
 
 line 9 will print: value added: 20
 
-This is because 'add' is true, so if the block runs and 'result' is assigned 'num1 + num2', which when added equals 20
+This is because 'add' is true, so if the block runs and 'result' is assigned 'num1 + num2', which when added will equal 20.
 
 ---
 
 ### 2. What is printed by line 13? If the code returns an error, explain why.
 
-Line 13 will print:
-final result: 20
+Line 13 will print: final result: 20
 
-This works because 'var' has function scope, so the variable 'result' is accessible outside the if block even though it was declared inside it.
+This works because 'var' has function scope, so the variable 'result' is accessible outside the if block even though it was declared inside of the block. 
 
 ---
 
 ### 3. Why should you not use var? Explain why.
 
-You shouldn’t use 'var' because it ignores block scope and can be accessed outside of where you define it, which can cause confusing bugs. It makes the code harder to track and debug. Using 'let' or 'const' is better since they stay within the block and behave more predictably.
+You shouldn’t use 'var' because it ignores block scope and can be accessed outside of where you define it, which can cause confusing bugs or errors. It makes the code harder to track and debug. Using 'let' or 'const' is better since they stay within the block and behave more predictably.
 
 ### 4. What is printed by line 9? If the code returns an error, explain why.
 

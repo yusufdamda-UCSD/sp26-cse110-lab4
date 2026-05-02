@@ -168,8 +168,6 @@ modifyArray goes through [1,2,3] and runs the callback on each value. doSomethin
 
 ### 19
 
-19.
-
 Output:
 1
 4
